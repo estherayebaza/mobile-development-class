@@ -1,29 +1,31 @@
 fun main() {
-  println("Hello Esther")
-   division()
-    add()
-    print("an ambitious girl")
+    name ()
+    var mod=modulus(17,5)
+    println(mod )
+    var sum=add(43,73,97,547)
+println(sum)
+    reality()
+}
+fun name (){
+    var name=("Hello Esther")
+    println(name )
+}
+fun modulus(a:Int,b:Int ):Int{
+    var mod=a%b
+    return(mod)
+}
+fun add(k:Int,l:Int,m:Int,n:Int):Int{
+    var sum=k+l+m+n
+    return(sum)
+}
+fun reality(){
+    var reality="am so humble"
+    println(reality)
+}
 
-}
-fun division() {
-    var num1=37
-    var num2=5
-    var modulus=num1%num2
-    println(modulus)
-}
-fun add(){
-    var num1=10
-    var num2=20
-    var num3=5
-    var num4=23
-    var sum=num1+num2+num3+num4
-    println(sum)
-}
-fun reality() {
-    var reality=("an ambitious girl")
 
 
-}
+
 
 
 
